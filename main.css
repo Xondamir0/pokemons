@@ -1,0 +1,87 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+input, select, button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input {
+    flex: 1;
+}
+
+button {
+    background-color: #ffcc00;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ffb700;
+}
+
+
+.pokemon__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+
+.parent {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.parent:hover {
+    transform: scale(1.05);
+}
+
+.lii img {
+    max-width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+
+.lii h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+.lii span {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #555;
+}
